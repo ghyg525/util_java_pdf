@@ -140,11 +140,4 @@ public class PdfUtil {
 		return null;
     }
 	
-	
-	public static void main(String[] args) throws Exception{
-		File file = new File("c:/test.pdf");
-		exportPdf(file);
-		System.out.println("导出pdf成功: "+file);
-	}
-	
 }
